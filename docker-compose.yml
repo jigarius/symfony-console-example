@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  main:
+    image: php:symfony-console-example
+    container_name: symfony-console-example
+    build:
+      context: .
+      dockerfile: .docker/main/Dockerfile
+    volumes:
+      - .:/code
