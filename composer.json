@@ -1,12 +1,19 @@
 {
-    "name": "symetris/symfony-console-example",
-    "description": "A demo of how to write CLI apps with Symfony Console.",
-    "type": "project",
-    "authors": [
-        {
-            "name": "Jigar Mehta",
-            "email": "jigar.mehta@symetris.ca"
-        }
-    ],
-    "require": {}
+  "name": "symetris/symfony-console-example",
+  "description": "A demo of how to write CLI apps with Symfony Console.",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Jigar Mehta",
+      "email": "jigar.mehta@symetris.ca"
+    }
+  ],
+  "require": {
+    "symfony/console": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Calculator\\": "app/src/"
+    }
+  }
 }
