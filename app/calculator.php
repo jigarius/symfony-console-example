@@ -19,5 +19,6 @@ $application->setName('Calculator');
 $application->setVersion('1.0.0');
 $application->add(new AddCommand());
 $application->add(new SubtractCommand());
+$application->add(new MultiplyCommand());
 $application->add(new DivideCommand());
 $application->run();
