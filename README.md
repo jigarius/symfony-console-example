@@ -14,3 +14,4 @@ This project uses Docker Compose. Here's how you see the code in action.
 ## References
 
 - Brought to you by [Symetris](https://symetris.ca/).
+- [Symfony Console](https://github.com/symfony/console#readme) documentation
